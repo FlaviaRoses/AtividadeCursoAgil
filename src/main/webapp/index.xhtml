@@ -1,0 +1,312 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="components/pg.blocks/css/blocks.css" />
+	<link rel="stylesheet" href="components/pg.blocks/css/plugins.css" />
+	<link rel="stylesheet"
+		href="components/pg.blocks/css/style-library-1.css" />
+	<link rel="stylesheet"
+		href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700" />
+	<link rel="stylesheet"
+		href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" />
+	<title>Mundo dos Filmes</title>
+</h:head>
+
+<h:body>
+	<header id="header-1" class="soft-scroll header-1"> <!-- Navbar -->
+	<nav class="main-nav navbar-fixed-top headroom headroom--pinned">
+	<div class="container">
+		<!-- Brand and toggle -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse"
+				data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span> <span
+					class="icon-bar"></span> <span class="icon-bar"></span> <span
+					class="icon-bar"></span>
+			</button>
+			<a href="#"><img src="img/logo.png"	class="brand-img img-responsive"/></a>
+		</div>
+		<!-- Navigation -->
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="active nav-item"><a href="#">Home</a></li>
+				<li class="nav-item"><a href="#">Features</a></li>
+				<li class="nav-item"><a href="#">Pricing</a></li>
+				<li class="nav-item dropdown"><a class="dropdown-toggle"
+					data-toggle="dropdown" data-hover="dropdown" data-delay="0"
+					data-close-others="false" href="#">Pages <i class="fa fa-angle-down"/></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Dropdown 1</a></li>
+						<li><a href="#">Dropdown 2</a></li>
+						<li><a href="#">Dropdown 3</a></li>
+						<li><a href="#">Dropdown 4</a></li>
+					</ul></li>
+				<!--//dropdown-->
+				<li class="nav-item"><a href="#">Contact</a></li>
+			</ul>
+			<!--//nav-->
+		</div>
+		<!--// End Navigation -->
+	</div>
+	<!--// End Container --> </nav> <!--// End Navbar --> </header>
+	<section id="promo-3"
+		class="content-block promo-3 min-height-600px bg-deepocean">
+	<div class="container text-center">
+		<h1>Mundo dos Filmes</h1>
+		<h2>Cadastre-se</h2>
+		<a href="cadastro.xhtml"
+			class="btn btn-outline btn-outline-xl outline-light">Faça seu
+			cadastro</a> <br/> <a href="#"
+			class="btn btn-outline btn-outline-xl outline-light">Login</a>
+	</div>
+	<!-- /.container --> </section>
+	<section class="content-block gallery-1 gallery-1-2">
+	<div class="container">
+		<div class="underlined-title">
+			<h1>Seu mundo em sua tela</h1>
+			<hr/>
+				<h2>Sugestões para você</h2>
+		</div>
+		<ul class="filter">
+			<li class="active"><a href="img/filme.jpg" data-filter="*">Todos</a>
+			</li>
+			<li><a href="#" data-filter=".artwork">Ficção</a></li>
+			<li><a href="#" data-filter=".creative">Horror</a></li>
+			<li><a href="#" data-filter=".nature">Suspense</a></li>
+			<li><a href="#" data-filter=".outside">Drama</a></li>
+			<li><a href="#" data-filter=".photography">Comédia</a></li>
+		</ul>
+		<!-- /.gallery-filter -->
+		<div class="row">
+			<div class="isotope-gallery-container">
+				<div
+					class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper artwork creative">
+					<div class="gallery-item">
+						<div class="gallery-thumb">
+							<img src="img/filme.jpg" class="img-responsive" alt="1st gallery Thumb"/>
+								<div class="image-overlay"></div>
+								<a href="http://placehold.it/800x600" class="gallery-zoom">
+									<i class="fa fa-eye" alt="This is the title"/>
+								</a>
+								<a href="#" class="gallery-link" target="_blank">
+									<i class="fa fa-link"/>
+								</a>
+						</div>
+						<div class="gallery-details">
+							<h5>A volta dos que não foram!</h5>
+							<p>Junte-se a nossos heróis nesta épica aventura.</p>
+						</div>
+					</div>
+				</div>
+				<!-- /.gallery-item-wrapper -->
+				<div
+					class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper nature outside">
+					<div class="gallery-item">
+						<div class="gallery-thumb">
+							<img src="img/filme.jpg" class="img-responsive"
+								alt="2nd gallery Thumb"/>
+								<div class="image-overlay"></div> <a
+								href="http://placehold.it/800x600" class="gallery-zoom"><i
+									class="fa fa-eye"></i></a> <a href="#" class="gallery-link"><i
+									class="fa fa-link"></i></a>
+						</div>
+						<div class="gallery-details">
+							<h5>A volta dos que não foram!</h5>
+							<p>Junte-se a nossos heróis nesta épica aventura.</p>
+						</div>
+					</div>
+				</div>
+				<!-- /.gallery-item-wrapper -->
+				<div
+					class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper photography artwork">
+					<div class="gallery-item">
+						<div class="gallery-thumb">
+							<img src="img/filme.jpg" class="img-responsive"
+								alt="3rd gallery Thumb"/>
+								<div class="image-overlay"></div> <a
+								href="http://placehold.it/800x600" class="gallery-zoom"><i
+									class="fa fa-eye"></i></a> <a href="#" class="gallery-link"><i
+									class="fa fa-link"></i></a>
+						</div>
+						<div class="gallery-details">
+							<h5>A volta dos que não foram!</h5>
+							<p>Junte-se a nossos heróis nesta épica aventura.</p>
+						</div>
+					</div>
+				</div>
+				<!-- /.gallery-item-wrapper -->
+				<div
+					class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper creative nature">
+					<div class="gallery-item">
+						<div class="gallery-thumb">
+							<img src="img/filme.jpg" class="img-responsive"
+								alt="4th gallery Thumb"/>
+								<div class="image-overlay"></div> <a
+								href="http://placehold.it/800x600" class="gallery-zoom"><i
+									class="fa fa-eye"></i></a> <a href="#" class="gallery-link"><i
+									class="fa fa-link"></i></a>
+						</div>
+						<div class="gallery-details">
+							<h5>A volta dos que não foram!</h5>
+							<p>Junte-se a nossos heróis nesta épica aventura.</p>
+						</div>
+					</div>
+				</div>
+				<!-- /.gallery-item-wrapper -->
+				<div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper nature">
+					<div class="gallery-item">
+						<div class="gallery-thumb">
+							<img src="img/filme.jpg" class="img-responsive"
+								alt="5th gallery Thumb"/>
+								<div class="image-overlay"></div> <a
+								href="http://placehold.it/800x600" class="gallery-zoom"><i
+									class="fa fa-eye"></i></a> <a href="#" class="gallery-link"><i
+									class="fa fa-link"></i></a>
+						</div>
+						<div class="gallery-details">
+							<h5>A volta dos que não foram!</h5>
+							<p>Junte-se a nossos heróis nesta épica aventura.</p>
+						</div>
+					</div>
+				</div>
+				<!-- /.gallery-item-wrapper -->
+				<div
+					class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper artwork creative">
+					<div class="gallery-item">
+						<div class="gallery-thumb">
+							<img src="img/filme.jpg" class="img-responsive"
+								alt="6th gallery Thumb"/>
+								<div class="image-overlay"></div> <a
+								href="http://placehold.it/800x600" class="gallery-zoom"><i
+									class="fa fa-eye"></i></a> <a href="#" class="gallery-link"><i
+									class="fa fa-link"></i></a>
+						</div>
+						<div class="gallery-details">
+							<h5>A volta dos que não foram!</h5>
+							<p>Junte-se a nossos heróis nesta épica aventura.</p>
+						</div>
+					</div>
+				</div>
+				<!-- /.gallery-item-wrapper -->
+			</div>
+			<!-- /.isotope-gallery-container -->
+		</div>
+		<!-- /.row -->
+	</div>
+	<!-- /.container --> </section>
+	<section class="content-block pricing-table-2">
+	<div class="container">
+		<div class="underlined-title">
+			<h1>Planos</h1>
+			<hr/>
+				<h2>Temos os melhores planos para você</h2>
+		</div>
+		<div class="row">
+			<div class="tables-row">
+				<div class="col-md-4 price-block">
+					<div class="ribbon red-hot"></div>
+					<header>
+					<h2>1 tela</h2>
+					<div class="price">
+						<span class="currency">R$</span> <span class="amount">10</span> <span
+							class="period">/ Mês</span>
+					</div>
+					<!-- /.price -->
+					<button type="button" class="btn btn-success">Compre agora</button>
+					</header>
+					<ul class="features">
+						<li><i class="fa fa-file-o"></i> 20 Pages</li>
+						<li><i class="fa fa-cloud-upload"></i> 10 GB Storage</li>
+						<li><i class="fa fa-signal"></i> 500 GB Bandwidth</li>
+						<li><i class="fa fa-laptop"></i> Custom Domain</li>
+						<li><i class="fa fa-rocket"></i> 24/7 Support</li>
+					</ul>
+					<!-- /.features -->
+				</div>
+				<!-- /.price-block -->
+				<div class="col-md-4 price-block">
+					<div class="ribbon popular"></div>
+					<header>
+					<h2>2 telas hd</h2>
+					<div class="price">
+						<span class="currency">R$</span> <span class="amount">25</span> <span
+							class="period">/ Mês</span>
+					</div>
+					<!-- /.price -->
+					<button type="button" class="btn btn-success">Compre agora</button>
+					</header>
+					<ul class="features">
+						<li><i class="fa fa-file-o"></i> 100 Pages</li>
+						<li><i class="fa fa-cloud-upload"></i> 100 GB Storage</li>
+						<li><i class="fa fa-signal"></i> 2 TB Bandwidth</li>
+						<li><i class="fa fa-laptop"></i> Custom Domain</li>
+						<li><i class="fa fa-rocket"></i> 24/7 Support</li>
+					</ul>
+					<!-- /.features -->
+				</div>
+				<!-- /.price-block -->
+				<div class="col-md-4 price-block">
+					<div class="ribbon premium"></div>
+					<header>
+					<h2>4 telas hd</h2>
+					<div class="price">
+						<span class="currency">R$</span> <span class="amount">40</span> <span
+							class="period">/ Mês</span>
+					</div>
+					<!-- /.price -->
+					<button type="button" class="btn btn-success">Compre agora</button>
+					</header>
+					<ul class="features">
+						<li><i class="fa fa-file-o"></i> Unlimited Pages</li>
+						<li><i class="fa fa-cloud-upload"></i> Unlimited Storage</li>
+						<li><i class="fa fa-signal"></i> Unlimited Bandwidth</li>
+						<li><i class="fa fa-laptop"></i> Custom Domain</li>
+						<li><i class="fa fa-rocket"></i> 24/7 Support</li>
+					</ul>
+					<!-- /.features -->
+				</div>
+				<!-- /.price-block -->
+			</div>
+		</div>
+		<!-- /.row -->
+	</div>
+	<!-- /.container --> </section>
+	<section class="content-block-nopad bg-deepocean footer-wrap-1-2">
+	<div class="container footer-1-2">
+		<img src="img/logo.png" class="brand-img img-responsive"/>
+			<div class="big-social row">
+				<div class="col-sm-2 col-sm-offset-3 social-item facebook">
+					<a href="http://facebook.com/"><i
+						class="social-icon fa fa-2x fa-facebook"></i>
+					<h4 class="action">Like us</h4></a>
+				</div>
+				<div class="col-sm-2 social-item twitter">
+					<a href="http://twitter.com/"><i
+						class="social-icon fa fa-2x fa-twitter"></i>
+					<h4 class="action">Follow us</h4></a>
+				</div>
+				<div class="col-sm-2 social-item google">
+					<a href="http://plus.google.com/"><i
+						class="social-icon fa fa-2x fa-google-plus"></i>
+					<h4 class="action">+1 us</h4></a>
+				</div>
+			</div>
+	</div>
+	<!-- /.container --> </section>
+	<script type="text/javascript" src="components/pg.blocks/js/plugins.js"></script>
+	<script type="text/javascript"
+		src="components/pg.blocks/js/bskit-scripts.js"></script>
+	<script type="text/javascript"
+		src="https://maps.google.com/maps/api/js?sensor=true"></script>
+</h:body>
+</html>
