@@ -6,7 +6,7 @@ import javax.faces.bean.SessionScoped;
 @ManagedBean
 @SessionScoped
 public class DefaultController {
-	private String oiMundo = "Oi mundo!!!";
+	private String oiMundo = "MASCULINO";
 
 	public String getOiMundo() {
 		return oiMundo;

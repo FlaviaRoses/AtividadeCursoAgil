@@ -1,20 +1,16 @@
 package br.com.mundodosfilmes.model;
 
-public class Usuario {
+import javax.persistence.Entity;
 
-	private Integer id;
+@Entity
+public class Usuario extends GenericoModelo {
+
+	private static final long serialVersionUID = -4601803537471756780L;
+	
 	private String nome;
 	private Integer idade;
 	private String cidade;
 	private Sexo sexo;
-
-	public Integer getId() {
-		return id;
-	}
-
-	public void setId(Integer id) {
-		this.id = id;
-	}
 
 	public String getNome() {
 		return nome;
